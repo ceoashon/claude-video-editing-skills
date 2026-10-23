@@ -22,6 +22,7 @@ For each clip, write: start/end times, the hook line, why it works, and a tag fo
 ## 3. Style (keep it clean)
 - One caption line at a time, white, bold, centred in the lower third, synced to words.
 - One hook line at the top for the first ~2 s.
+- Sound effects, if any, come from the `sfx-library` skill: a soft whoosh or pop on caption/graphic changes, one impact at most on the hook. Keep them well under the voice.
 - Few or no extra graphics. Heavy editing styles fight the footage. One focal point at a time.
 
 ## 4. Deliver

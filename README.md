@@ -6,6 +6,7 @@ These are the skills I use to make my videos with Claude Code (Opus 5.5) on the 
 |---|---|
 | `interview-shot-sheet` | Claude interviews you about the video until it finds the story, then writes a bullet-point shot sheet for your second phone |
 | `long-form-editor` | Raw takes → cut list → graded A-roll → word-synced motion graphics → original music + sound effects → mixed, rendered video |
+| `sfx-library` | 234 royalty-free sound effects (whooshes, impacts, risers, clicks, dings, money, glitch…) plus a script that cues them to your timeline and renders the `sfx.wav` for the mix |
 | `shorts-cutter` | Finds the 5–8 best standalone moments in a long form and cuts them as vertical shorts |
 | `video-quality-check` | Catches the stuff that made my first video look flat and grey (HDR footage, stacked compression, loudness) |
 | `youtube-metadata` | Titles, description with chapters, tags and a pinned comment |
@@ -27,5 +28,6 @@ Interview → record 1–2 minute takes off the shot sheet (1080p, HDR off) → 
 - You still direct. Tell it when something looks off, sounds off or has too much going on.
 - Keep one focal point on screen at a time.
 - Use your own music or let it generate some. Don't drop in songs you don't own.
+- The sounds in `sfx-library` are original or CC0 (see `sfx-library/LICENSE-SFX.txt`), free to use in any video with no credit.
 
 Made by @eliftforlife. Subscribe for a lemon 🍋

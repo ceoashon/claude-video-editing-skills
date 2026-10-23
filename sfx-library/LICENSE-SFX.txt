@@ -1,0 +1,31 @@
+DIGITAL EMPIRE SFX PACK
+234 sound effects for short-form and YouTube edits
+All files: WAV, 48kHz, 16-bit stereo, peak-normalised to -1 dB
+
+FOLDERS
+01 Whooshes & Transitions - jump cuts, zoom-ins, scene changes
+02 Impacts & Booms        - reveals, hook lines, text slams
+03 Risers & Tension       - the seconds before a reveal
+04 Pops & Clicks          - captions, emojis, list items, screen recordings
+05 Dings & Notifications  - right answers, DMs, wins, mistakes
+06 Money                  - revenue, sales, client wins
+07 Tech & Glitch          - AI/tech content, pattern breaks
+08 Camera & Paper         - freeze frames, notes, page turns
+09 Funny & Reactions      - comedic moments
+10 Time                   - urgency, deadlines
+
+LICENCE
+You can use every sound in this pack in any video, personal or commercial,
+on any platform (YouTube, Instagram, TikTok, ads, client work).
+No credit is required.
+
+Every sound in this pack is either original (created for Digital Empire)
+or released into the public domain under Creative Commons Zero (CC0 1.0):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+CC0 sources, with thanks:
+- Kenney (kenney.nl): Interface Sounds, Impact Sounds, UI Audio,
+  Digital Audio, Sci-Fi Sounds, Casino Audio, RPG Audio
+- OpenGameArt.org contributors: Swishes Sound Pack, Wind/Hit/Time Morph
+  (qubodup), Air Whoosh, 100 CC0 SFX, Camera, CameraShudder,
+  Chunky Explosion, Dull Explosion

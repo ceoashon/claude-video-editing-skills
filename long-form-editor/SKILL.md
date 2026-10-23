@@ -30,7 +30,7 @@ Run everything from `editor/`. Needs ffmpeg, Python (`numpy scipy soundfile pill
 9. **Graphics:** write `g/_content.js` (see `example_content.js`), assemble `part2.js = _infra.js + _content.js + _tail.js`, then `node check.mjs`.
    - `block(section, 'start phrase', 'end phrase', html, {side})`. Children with `data-at="phrase"` reveal on that word.
    - One graphic at a time, opposite side from the face, never over it. Render sample frames and look at them before the full render.
-10. `py music.py` → original score + sound effects timed to the sections and graphics (no licensed music needed). Then `py mix.py` → music ~20 dB under the voice, oversampled true-peak limiter.
+10. `py music.py` → original score + sound effects timed to the sections and graphics (no licensed music needed). For recorded effects (whooshes, impacts, risers, clicks), cue them with the `sfx-library` skill and layer them on: `py sfx.py render cues.json sfx.wav --add sfx.wav`. Then `py mix.py` → music ~20 dB under the voice, oversampled true-peak limiter.
 11. **Render graphics:** in `g/`, run `node render.mjs <from> <to>` in 3–4 parallel chunks.
 12. `py final.py` → one composite pass, CRF 14 slow, AAC 320k.
 
