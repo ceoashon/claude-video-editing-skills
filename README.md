@@ -11,11 +11,23 @@ These are the skills I use to make my videos with Claude Code (Opus 5.5) on the 
 | `video-quality-check` | Catches the stuff that made my first video look flat and grey (HDR footage, stacked compression, loudness) |
 | `youtube-metadata` | Titles, description with chapters, tags and a pinned comment |
 
-## Install
+## Quick start (do this once per computer)
 
 1. Install [Claude Code](https://claude.com/claude-code).
-2. Copy the folders you want into `~/.claude/skills/` (or `.claude/skills/` inside your video project).
-3. Open Claude Code in the folder with your footage and say what you want, e.g. "interview me for my next video", "edit these takes into a long form", "cut shorts from this video".
+2. `git clone` this repo, then run `./install.sh` inside it (macOS / Linux; on Windows use WSL or Git Bash). It copies every skill into `~/.claude/skills/` and links the editing playbook (`CLAUDE.md`) so every Claude Code session on that computer reads it.
+3. Open `~/.claude/video-editing/brand.md` and fill in your channel details once, so Claude never has to ask again.
+
+## Every edit after that
+
+1. Copy your footage off the camera or card into a folder on your computer. Copy, don't move.
+2. Open Claude Code in that folder and say what you want, for example:
+   - "Cut shorts from the clips in this folder."
+   - "Edit these takes into a long form, with whooshes on the graphics and a boom on the hook."
+   - "Check this footage before we edit."
+
+Claude checks the footage, installs what's missing, and starts. Originals are never touched; results go to `final/`.
+
+Manual install instead: copy the skill folders into `~/.claude/skills/` (or `.claude/skills/` inside your video project).
 
 The editor needs `ffmpeg`, Python 3 (`numpy`, `scipy`, `soundfile`, `pillow`, `faster-whisper`) and Node with `playwright`. Claude can install them for you.
 
